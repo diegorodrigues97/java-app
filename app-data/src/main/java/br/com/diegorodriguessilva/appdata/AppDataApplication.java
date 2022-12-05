@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class AppDataApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(AppDataApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(AppDataApplication.class, args);
+  }
 }

@@ -7,25 +7,20 @@
 		<groupId>br.com.diegorodriguessilva</groupId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>br.com.diegorodriguessilva</groupId>
+
 	<artifactId>app-data</artifactId>
 	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>app-data</name>
-	<description>Demo project for Spring Boot</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
+
+	<description>test</description>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-jpamodelgen</artifactId>
-			<version>5.6.5.Final</version>
-			<scope>provided</scope>
-		</dependency>
+
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
